@@ -1,10 +1,10 @@
-package service.service;
+package service.connect;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class ConnectionToMySQL {
-    static final String URL = "jdbc:mysql://localhost:3306/laptop_store";
+    static final String URL = "jdbc:mysql://localhost:3306/student_management";
     static final String USERNAME = "root";
     static final String PASSWORD = "1234";
 
